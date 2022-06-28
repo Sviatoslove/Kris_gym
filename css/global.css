@@ -1,5 +1,16 @@
 
 /* -----------Specification------------- */
+@font-face {
+  font-family: 'Choco cooky';
+  src: url('../fonts/Chococooky.eot');
+  src: url('../fonts/Chococooky.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Chococooky.woff2') format('woff2'),
+      url('../fonts/Chococooky.woff') format('woff'),
+      url('../fonts/Chococooky.svg#Chococooky') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 html {
   scroll-behavior: smooth;
@@ -10,7 +21,7 @@ body {
   color: #000000;
   padding: 0;
   margin: 0;
-  background-color: #e8c3e8;
+  background-color: #000000;
 }
 .container {
   max-width: 1200px;
@@ -30,7 +41,7 @@ div, p, form, input, button, a, span {
   box-sizing: border-box;
 }
 p {
-  font-family: 'Museo Sans 300';
+  font-family: 'Choco cooky';
 }
 input, input:hover, input:focus, input:active, button, button:hover, button:focus, button:active {
   outline: none;
@@ -117,10 +128,14 @@ table {
   border-spacing: 0; 
 }
 td, th {
-  border: 1px solid black;
+  border: 1px solid rgb(255, 255, 255);
   padding: 5px 5px;
-  background-color: rgb(246, 246, 226);
+  background-color: rgb(223, 223, 200);
 }
 .table__wrapp {
   overflow-x: auto;
+}
+.title__table {
+  border-top-left-radius: 30px;
+  background-color: #000000;
 }
