@@ -10,6 +10,7 @@ body {
   color: #000000;
   padding: 0;
   margin: 0;
+  background-color: #e8c3e8;
 }
 .container {
   max-width: 1200px;
@@ -119,6 +120,7 @@ table {
 td, th {
   border: 1px solid black;
   padding: 5px 5px;
+  background-color: rgb(246, 246, 226);
 }
 .table__wrapp {
   overflow-x: auto;
