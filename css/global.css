@@ -12,7 +12,7 @@ body {
   margin: 0;
 }
 .container {
-  max-width: 942px;
+  max-width: 1200px;
   width: 100%;
   margin: 50px auto;
 }
@@ -108,7 +108,7 @@ h6 {
 }
 
 table {
-  width: 920px;
+  width: 1200px;
   text-align: center;
   margin: 0 auto;
   font-size: 11px;
