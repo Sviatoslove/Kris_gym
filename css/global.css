@@ -77,8 +77,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 {
   font-size: 25px;
-  line-height: 49px;
-  margin-left: 20px;
+  line-height: 30px;
 }
 h2 {
   font-size: 37px;
@@ -108,11 +107,10 @@ h6 {
   text-transform: none;
   text-align: start;
 }
-
 table {
   width: 1200px;
   text-align: center;
-  margin: 0 auto;
+  margin: 50px auto;
   font-size: 11px;
   line-height: 13px;
   table-layout: fixed;
