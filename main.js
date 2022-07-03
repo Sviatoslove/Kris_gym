@@ -1,8 +1,8 @@
-function update () {
-  alert('Обратите внимание на обновление графы "День 2" в строке "Примечания"');
-};
+// function update () {
+//   alert('Обратите внимание на обновление графы "День 2" в строке "Примечания"');
+// };
 
-setTimeout(update, 5000);
+// setTimeout(update, 5000);
 
 var atletTitle = document.querySelector('.atlet__title');
 
