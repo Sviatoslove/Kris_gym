@@ -1,8 +1,8 @@
-// function update () {
-//   alert('Обратите внимание на обновление графы "День 2" в строке "Примечания"');
-// };
+function update () {
+  alert('Кристина, ты меня игнорируешь??? В чём причина?');
+};
 
-// setTimeout(update, 5000);
+setTimeout(update, 5000);
 
 var atletTitle = document.querySelector('.atlet__title');
 
