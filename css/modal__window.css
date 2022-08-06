@@ -45,9 +45,49 @@ h1 {
   width: 300px;
   height: 300px;
   z-index: 2;
-  border: 1px solid black;
+  border: 2px solid black;
   background-color: #fff;
+  -webkit-box-shadow: 5px 5px 5px 8px rgba(227, 134, 224, 0.6);
+  -moz-box-shadow: 5px 5px 5px 8px rgba(227, 134, 224, 0.6);
+  box-shadow: 5px 5px 5px 8px rgba(227, 134, 224, 0.6);
 }
-.btn-close {
+#modal-window :hover {
+  
+}
+.wrapper__content {
+  transition: transform .2s;
+}
+.wrapper__content :hover {
+  transform: scale(1.3);
+  -webkit-box-shadow: 5px 5px 5px 8px rgba(227, 134, 224, 0.6);
+  -moz-box-shadow: 5px 5px 5px 8px rgba(227, 134, 224, 0.6);
+  box-shadow: 5px 5px 5px 8px rgba(227, 134, 224, 0.6);
+  transition: ease 1s;
+}
+.wrapper__btn {
   text-align: -webkit-right;
+  background-color: goldenrod;
+}
+.content__background {
+  background: url(../img/1595307745_2.jpg) no-repeat 0px 0px / cover;
+  outline-offset: -8px;
+  outline: #ffdd2d solid 2px;
+  height: 276px;
+}
+.content {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  text-align: center;
+  background-color: rgba(185, 236, 219, 0.5);
+  color: #781e79c4;
+  width: min-content;
+  outline: #ffdd2d solid 2px;
+  font-weight: bold;
+  -webkit-box-shadow: 0px 0px 100px -39px rgba(0, 0, 0, 0.23) inset;
+-moz-box-shadow: 0px 0px 100px -39px rgba(0, 0, 0, 0.23) inset;
+box-shadow: 0px 0px 100px -39px rgba(0, 0, 0, 0.23) inset;
+}
+#btn-close {
+  cursor: pointer;
 }

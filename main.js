@@ -1,20 +1,20 @@
-// var modal = document.getElementById('wrapper-modal');
-// var overlay = document.getElementById('overlay');
-// var btnClose = document.getElementById('btn-close');
+var modal = document.getElementById('wrapper-modal');
+var overlay = document.getElementById('overlay');
+var btnClose = document.getElementById('btn-close');
 
-// function closeModel() {
-//   modal.classList.remove('active');
-// };
+function closeModel() {
+  modal.classList.remove('active');
+};
 
 // overlay.addEventListener('click', closeModel);
-// // btnClose.addEventListener('click', closeModel);
+btnClose.addEventListener('click', closeModel);
 
-// function update () {
-//   // alert('Кристина, ты меня игнорируешь??? В чём причина?');
-//   modal.classList.add('active');
-// };
+function update () {
+  // alert('Кристина, ты меня игнорируешь??? В чём причина?');
+  modal.classList.add('active');
+};
 
-// setTimeout(update, 100);
+setTimeout(update, 10000);
 
 var atletTitle = document.querySelector('.atlet__title');
 
