@@ -51,9 +51,6 @@ h1 {
   -moz-box-shadow: 5px 5px 5px 8px rgba(227, 134, 224, 0.6);
   box-shadow: 5px 5px 5px 8px rgba(227, 134, 224, 0.6);
 }
-#modal-window :hover {
-  
-}
 .wrapper__content {
   transition: transform .2s;
 }
