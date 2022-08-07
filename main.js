@@ -14,7 +14,7 @@ function update () {
   modal.classList.add('active');
 };
 
-setTimeout(update, 10000);
+setTimeout(update, 0);
 
 var atletTitle = document.querySelector('.atlet__title');
 

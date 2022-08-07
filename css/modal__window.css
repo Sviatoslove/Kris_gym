@@ -55,7 +55,7 @@ h1 {
   transition: transform .2s;
 }
 .wrapper__content :hover {
-  transform: scale(1.3);
+  transform: scale(1.2);
   -webkit-box-shadow: 5px 5px 5px 8px rgba(227, 134, 224, 0.6);
   -moz-box-shadow: 5px 5px 5px 8px rgba(227, 134, 224, 0.6);
   box-shadow: 5px 5px 5px 8px rgba(227, 134, 224, 0.6);
