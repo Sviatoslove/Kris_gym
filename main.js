@@ -18,8 +18,8 @@ setTimeout(update, 10000);
 
 var atletTitle = document.querySelector('.atlet__title');
 
-var stepLeft = -60;
-var stepRight = 80;
+var stepLeft = 15;
+var stepRight = 180;
 
 function animeLogoPlus(a, b, ms) {
   setInterval(() => {
